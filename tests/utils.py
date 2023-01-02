@@ -1,7 +1,4 @@
-from enum import Enum
-
-
-class Keys(str, Enum):
+class Keys:
     KEY: str = "key"
     KEY_1: str = "random"
     KEY_LOCK: str = "key-lock"
